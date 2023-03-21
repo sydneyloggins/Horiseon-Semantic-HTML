@@ -1,13 +1,16 @@
+/*Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Background color of website*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Styling of header with nav bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +18,7 @@ body {
     color: #ffffff;
 }
 
+/*h1 and nav bar font-size/style; adding different color to 'seo'*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -32,21 +36,25 @@ body {
     font-size: 20px;
 }
 
+/*Consolodate 'list-style-type into*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none; 
 }
 
+/*Style links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Paragraph font size*/
 p {
     font-size: 16px;
 }
 
+/*Styling for image at top of page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +64,7 @@ p {
     background-position: center;
 }
 
+/*Added 'max-height' to 'float-left' and 'float-right' classes*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,6 +83,7 @@ p {
     margin-left: 20px;
 }
 
+/*Consolodated main section into 'main-content' class and changed order of 'benefits' with 'main-content*/
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,6 +98,7 @@ p {
     font-size: 36px;
 }
 
+/*Consolodated benefits section into fewer classes*/ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,6 +126,7 @@ p {
     max-width: 150px;
 }
 
+/*Footer Section*/ 
 .footer {
     padding: 30px;
     clear: both;
