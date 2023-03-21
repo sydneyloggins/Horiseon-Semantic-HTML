@@ -6,7 +6,7 @@ The first challenge is intended to practice semantic HTML to organize code and m
 
 ## Installation
 
-User can click on this link to access the website: http://127.0.0.1:5500/Module-1-Challenge/02-Challenge/Develop/index.html#social-media-marketing
+User can click on this link to access the website: https://sydneyloggins.github.io/module-challenge-1/
 
 ## Usage
 
